@@ -164,7 +164,7 @@ describe('reactjs-fun/recompose', () => {
     //  a. renders Loading component when items are not loaded
     //  b. uses axios to fetch /fake-api.json when the component mounts
     //  c. passes the items down to the component when available and renders
-    const Comp = undefined; // TODO wrap EchoProps with HOC from recompose
+    const DynamicContent = undefined; // TODO wrap MainContent with HOC from recompose
 
     expect(DynamicContent).toExist('DynamicContent should exist');
     ReactDOM.render(<DynamicContent />, div, () => {
