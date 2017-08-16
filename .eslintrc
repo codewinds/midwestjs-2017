@@ -1,0 +1,59 @@
+{
+  "env": {
+    "browser": true,
+    "mocha": true,
+    "node": true
+  },
+  "extends": ["airbnb-base", "plugin:react/recommended"],
+  "rules": {
+    "arrow-body-style": [1, "as-needed"],
+    "arrow-parens": 0,
+    "class-methods-use-this": 1,
+    // don't require dangling commas
+    "comma-dangle": 0,
+    // polyfills need to come first
+    "import/first": 0,
+    // causing issues with codacy
+    "import/no-unresolved": 0,
+    "import/prefer-default-export": 0,
+    "import/no-extraneous-dependencies": 1,
+    "indent": 0,
+    "max-len": 0,
+    "new-cap": 0,
+    "no-confusing-arrow": 1,
+    "no-console": 0,
+    "no-else-return": 1,
+    "no-multiple-empty-lines": 0,
+    "no-param-reassign": 1,
+    "no-shadow": 0,
+    "no-undef": 1,
+    "no-unused-vars": 1,
+    // don't require functions to be declared before use
+    "no-use-before-define": [2, { "functions": false, "classes": true }],
+    "no-useless-constructor": 1,
+    // Disable until Flow supports let and const
+    "no-var": 0,
+    "object-curly-spacing": 0,
+    "object-property-newline": 0,
+    "padded-blocks": 0,
+    "prefer-const": 0,
+    "react/jsx-uses-react": 1,
+    "react/jsx-no-undef": 2,
+    "react/jsx-wrap-multilines": 2,
+    "react/no-find-dom-node": 0,
+    "react/prop-types": 0,
+    "space-in-parens": 0,
+    "valid-jsdoc": 2
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "impliedStrict": true,
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "react"
+  ]
+}

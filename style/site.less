@@ -1,0 +1,73 @@
+@import (inline) '../node_modules/mocha/mocha.css';
+
+// Constants
+@h1FontSize: 30px;
+@h2FontSize: 26px;
+@mainFontSize: 22px;
+@extraSmallFontSize: 14px;
+
+body {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: @mainFontSize;
+  background-color: beige;
+  margin: 20px 40px;
+}
+
+h1 {
+  font-size: @h1FontSize;
+}
+
+h2 {
+  font-size: @h2FontSize;
+}
+
+table {
+  font-size: @mainFontSize;
+}
+
+td {
+  padding: 5px;
+}
+
+.odd {
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  padding: 0 2px;
+}
+a:hover { background-color: lightblue; }
+
+.devHelp {
+  color: grey;
+  font-size: @extraSmallFontSize;
+}
+
+.message {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.verticalForm {
+  input, textarea, select, button {
+    display: block;
+    margin: 5px;
+  }
+
+  label {
+    display: block;
+    margin: 5px;
+    input {
+      display: inline;
+      margin: 5px;
+    }
+  }
+}
+
+.active {
+  color: green;
+}
