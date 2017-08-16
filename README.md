@@ -11,7 +11,7 @@ The workshop uses an auto-build development environment to transpile ES6/7 code 
 
 ### 1. Install Node.js (with npm)
 
-Install the latest LTS 4+ or Current 6+ version (see note about updating npm version though). Also check that your npm version is 2.x.x, 3.0.0-3.8.7, or 3.10.4+.
+Install the latest LTS 6+ or Current 7+ version (see note about updating npm version though). Also check that your npm version is 2.x.x, 3.0.0-3.8.7, or 3.10.4+.
 
  - https://nodejs.org/ - Node.js home page
  - https://nodejs.org/en/download/ - Other Node.js downloads
@@ -23,7 +23,7 @@ node -v
 npm -v
 ```
 
-Node.js: 4.x.x (LTS) or 6.x.x (Current) (**if using v6.x.x**, check npm version, it might need updating, see below)
+Node.js: 6.x.x (LTS) or 7.x.x,8.x.x (Current) (**if using v6.x.x**, check npm version, it might need updating, see below)
 NPM: 2.x.x, 3.0.0-3.8.7, or 3.10.4+ (are all acceptable)
 
 **If you want to use Node.js v6.5.0, then you need to update npm** since it has a buggy version of npm (v3.10.3). You can upgrade it using the following command.
@@ -53,13 +53,13 @@ If git isn't installed then visit https://git-scm.com/ to download and install.
 To clone this repo to your workstation (pulling down the files you will need)
 
 ```bash
-git clone https://github.com/codewinds/react-family-subjects.git
+git clone https://github.com/codewinds/midwestjs-2017.git
 ```
 
 ### 3. Installing the dependencies using npm
 
 ```bash
-cd react-family-subjects
+cd midwestjs-2017
 node verify.js && npm install
 ```
 
