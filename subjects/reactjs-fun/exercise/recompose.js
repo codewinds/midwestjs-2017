@@ -178,7 +178,8 @@ describe('reactjs-fun/recompose', () => {
           expect(div.querySelector('.loaded')).toExist();
           expect(div.querySelectorAll('li').length).toBe(3);
           done();
-        });
+        })
+        .catch(done);
     });
   });
 
