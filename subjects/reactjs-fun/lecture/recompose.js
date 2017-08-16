@@ -274,7 +274,7 @@ const EchoProps = props => {
 // ReactDOM.render(<Comp foo={2} />, div);
 
 
-/* shouldUpate */
+/* shouldUpdate */
 // const Comp = shouldUpdate(
 //   (props, nextProps) => props.message !== nextProps.message
 // )(EchoProps);
